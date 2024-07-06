@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{background-color: rgb(0, 0, 0);}
+
+.title{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    color:white;
+    font-family:"Playwrite NZ", cursive;;
+    color: #ffffff;
+    position: relative;
+}
+
+.navbar{
+    background-color: aqua;
+    width: 150%;
+    height: 5cap;
+    position: relative;
+    z-index: 100;
+    }
+
+.lii{
+    list-style: none;
+    text-align: center;
+    display: inline;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    
+
+
+}
+
+.link{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    cursor: grab;
+    position: relative;
+    top: 13px;
+    
+   }
+.lii :hover {
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+    transition: 0.5s;
+    outline-style: outset;
+    border-radius: 30px;
+    padding: 5px;
+    outline-color: black;
+    background-color: rgb(0, 0, 0);
+}
+
+.input{
+
+z-index: 200;
+position: relative;
+float: right;
+bottom: 42px;
+border-style: outset;
+font-size: larger;
+border-radius: 30px;
+background-color: black;
+outline-style: none;
+color: aliceblue;
+text-align: center;
+
+}
+.fp a{
+    font-size: 1cm;
+    color: #ffffff;
+    text-decoration: none;
+    border: whitesmoke;
+    border-style: outset;
+    border-radius: 90px;
+    padding: 10px;
+    
+    
+}
+.fp{
+    position: relative;
+    text-align: center;
+    left: 126px;
+    margin: 25px;
+    text-align: center;
+    display: none;
+}
+.fp a:hover{
+    
+    color: #000;
+    border-color: black;
+    background-color: #ffffff;
+    transition: 0.5s;
+    text-align: center;
+    display: none;
+}
+
+
+
+.ss{display: none;}
+
+
+@media screen {
+    
+}

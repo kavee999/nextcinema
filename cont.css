@@ -1,0 +1,89 @@
+*{color: azure;}
+
+body{
+      background-color: rgba(0, 0, 0, 0.836);
+      background-image: url(contact.webp);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-blend-mode: darken;
+}
+.cont{
+    text-align: center;
+    font-size: 90px;
+}
+
+a{
+    font-size: 300%;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: aqua;
+  }
+
+  .btn:hover{
+    transition:  1s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    color: #f00000;
+    border: #f00000;
+    border-style: ridge;
+    padding: 1%;
+    border-radius: 30px;
+    font-size: 40px;}
+
+  .btn:active{
+    color: #ffffff;
+    background-color: #000000;
+    border-color: #ffffff;
+
+
+  }  
+  h2{
+    text-align: center;
+    margin-top: 50px;
+    color: chartreuse;
+    font-family: "Kalam", cursive;
+    
+    
+  }
+
+  #onep{
+    font-size: 150%;
+    color: #f00000;
+    text-align: center;
+  }
+  #onep:hover{
+    border: 1px;
+    border-radius: 30px;
+    padding: 1%;
+    background-color: black;
+    color: aqua;
+    transition-duration: 0.5s;
+    transition-property: unset;
+    transition-timing-function: cubic-bezier(0.45, 0.05, 0.55, 0.795) ;
+  }
+  
+
+  .sp{
+    display: none;
+  }
+  p {
+   text-align: center;
+   cursor: pointer;
+   font-size: 200%;
+  }
+
+
+  .material-symbols-outlined{
+    margin-top: 9px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+.email,.material-symbols-outlined.material-symbols-outlined{
+
+display: flex;
+position: fixed;
+}
+.email{
+  margin-left: 50px;
+  margin-top: 0px;
+}
